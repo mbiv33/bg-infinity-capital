@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact – BG Infinity Capital</title>
+  <meta name="description" content="Get in touch with BG Infinity Capital. We're ready to discuss investment opportunities, partnerships, and community development projects.">
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="assets/images/logo.png" alt="BG Infinity Capital">
+      </a>
+      <ul class="navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="what-we-do.html">What We Do</a></li>
+        <li><a href="our-approach.html">Our Approach</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="navbar-hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-nav">
+    <a href="index.html">Home</a>
+    <a href="what-we-do.html">What We Do</a>
+    <a href="our-approach.html">Our Approach</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main class="page-content">
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" style="min-height:calc(100vh - 72px);display:flex;align-items:center;background-image:url('assets/images/contact-bg.jpg');background-size:cover;background-position:center;position:relative;">
+      <div style="position:absolute;inset:0;background:rgba(29,33,107,0.88);"></div>
+      <div class="container" style="position:relative;z-index:1;padding-top:64px;padding-bottom:64px;">
+        <div class="contact-form-card fade-up">
+          <h2>Get In Touch</h2>
+          <form id="contact-form" novalidate>
+            <!-- Web3Forms access key — replace with your key from web3forms.com -->
+            <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY">
+            <input type="hidden" name="subject" value="New Contact Form Submission — BG Infinity Capital">
+            <input type="hidden" name="from_name" value="BG Infinity Capital Website">
+            <input type="checkbox" name="botcheck" style="display:none;">
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="first_name" placeholder="First name" autocomplete="given-name">
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="last_name" placeholder="Last name" autocomplete="family-name">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email <span style="color:var(--accent);">*</span></label>
+              <input type="email" id="email" name="email" placeholder="Email" required autocomplete="email">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message <span style="color:var(--accent);">*</span></label>
+              <textarea id="message" name="message" placeholder="Message" required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Submit</button>
+            <div id="form-success" class="form-success"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">
+            <img src="assets/images/logo.png" alt="BG Infinity Capital">
+            <p class="tagline">Let's Work Together.</p>
+          </div>
+        </div>
+        <div class="footer-addresses">
+          <p>500 N. Robinson Ave.,<br>Oklahoma City, OK 73104</p>
+          <br>
+          <p>1200 W. Peachtree St, Suite 2300<br>Atlanta, GA</p>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:24px;align-items:flex-start;">
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="what-we-do.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <a href="contact.html" class="btn-cta">Contact Us</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 by BG Infinity Capital, LLC</span>
+        <nav style="display:flex;gap:20px;">
+          <a href="index.html" style="color:rgba(255,255,255,0.45)">Home</a>
+          <a href="what-we-do.html" style="color:rgba(255,255,255,0.45)">What We Do</a>
+          <a href="our-approach.html" style="color:rgba(255,255,255,0.45)">Our Approach</a>
+          <a href="projects.html" style="color:rgba(255,255,255,0.45)">Projects</a>
+          <a href="contact.html" style="color:rgba(255,255,255,0.45)">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
